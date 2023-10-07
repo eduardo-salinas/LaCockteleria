@@ -1,0 +1,95 @@
+/* body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}*/
+
+.seccion-principal {
+  flex-grow: 1;
+  margin-bottom: 50px;
+}
+
+[class*='__contenedor'] {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 95%;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.quienessomos__grid {
+  display: grid;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.persona {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  row-gap: 1rem;
+  border: 5px solid var(--second-color);
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.persona__nombre {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.persona__descripcion {
+  font-size: 1rem;
+}
+.persona__enlace {
+  margin: 2rem 1rem 1rem 1rem;
+  display: block;
+  text-decoration: none;
+  color: var(--second-color);
+  padding: 1rem 5rem;
+  border: 2px solid var(--second-color);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+.persona__enlace:hover {
+  background-color: var(--second-color);
+  color: var(--white-color);
+}
+
+@media screen and (min-width: 280px) and (max-width: 768px) {
+  .quienessomos__grid {
+    gap: 4rem;
+    padding: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .persona {
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .quienessomos__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .persona {
+    grid-template-rows: none;
+    row-gap: 0;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* .quienessomos__grid {
+    grid-template-columns: repeat(4, 1fr);
+  } */
+}
