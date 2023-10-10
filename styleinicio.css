@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider-box{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+    -webkit-animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.textocarrucel{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+    color: #ee0e0e;
+}
+.textocarrucel h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+.slider-box img{
+    width: 100%;
+}
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+@media(max-width: 991px){
+  body{
+    padding: 30px;
+  }
+
+.slider-box { 
+    width: 100%;
+  }
+  .textocarrucel{
+    top: 50px;
+    padding: 0 35px;
+  }
+  .textocarrucel h2{ 
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.textocarrucel p {
+font-size: 15px;
+}
+}
+.contenedor{
+    margin: 10px 10px 70px 10px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.carta{
+    background-color: #ebbc91;
+    width: 330px;
+    /* height: 400px; */
+    margin: 30px 70px;
+    border-radius:15px 15px 0 0  ;
+    -webkit-border-radius:15px 15px 0 0  ;
+    -moz-border-radius:15px 15px 0 0  ;
+    -ms-border-radius:15px 15px 0 0  ;
+    -o-border-radius:15px 15px 0 0  ;
+    box-shadow: 10px 5px 5px rgb(163, 131, 94);
+}
+.card-img{
+    background-color: rgb(173, 43, 10);
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.car-1 {
+    background-image: url(foto1.PNG);
+}
+.car-2 {
+    background-image: url(foto2.PNG);
+}
+.car-3 {
+    background-image: url(IMAGEN-kArE-U21627094969fhG-620x370@abc.jpg);
+}
+.carta h2{
+ padding: 10px;
+}
+.carta p{
+   padding: 10px; 
+}
+.carta a {
+    background-color: rgb(109, 13, 34);
+    color: aliceblue;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 25px 50px;
+}
+.carta:hover{
+    color: rgb(237, 210, 173);
+    background-color: rgb(185, 58, 19);
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    text-decoration: none;
+}
+
