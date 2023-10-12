@@ -66,6 +66,15 @@ img {
   color: var(--white-color);
 }
 
+.container_map {
+  margin: 2rem 5rem;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
 @media screen and (min-width: 279px) and (max-width: 767px) {
   .quienessomos__grid {
     gap: 3rem;
