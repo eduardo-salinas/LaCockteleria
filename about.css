@@ -23,7 +23,6 @@ img {
 .quienessomos__grid {
   display: grid;
   gap: 3rem;
-  padding: 2rem;
 }
 
 .persona {
@@ -34,7 +33,10 @@ img {
   text-align: center;
   align-items: center;
   border-radius: 20px;
-  padding: 10px;
+}
+
+.persona__imagen {
+  border-radius: 50%; /* Hace que la imagen tenga bordes redondeados, creando un círculo */
 }
 
 .persona__nombre {
@@ -64,27 +66,29 @@ img {
   color: var(--white-color);
 }
 
-@media screen and (min-width: 280px) and (max-width: 768px) {
+@media screen and (min-width: 279px) and (max-width: 767px) {
   .quienessomos__grid {
-    gap: 4rem;
-    padding: 2rem;
+    gap: 3rem;
+    padding: 1rem;
     grid-template-columns: repeat(1, 1fr);
   }
   .persona {
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
     row-gap: 1rem;
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .quienessomos__grid {
     grid-template-columns: repeat(2, 1fr);
+    margin: 0 1rem;
   }
   .persona {
-    grid-template-rows: none;
+    grid-template-rows: 1fr 0.5fr;
+    /* grid-template-rows: none;
     row-gap: 0;
     grid-template-columns: 2fr 1fr;
-    column-gap: 1rem;
+    column-gap: 1rem; */
   }
 }
 
