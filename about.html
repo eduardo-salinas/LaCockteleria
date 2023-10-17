@@ -6,36 +6,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/about.css" />
 </head>
 <body>
     <header class="header">
-        <section class="container">
-            <div class="logo">
-                <a href="#">La Cockteleria</a>
-            </div>
-            <button class="menu-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
-                </svg>
-                <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path
-                        d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
-                </svg>
-            </button>
-            <nav class="menu">
-                <a href="/index.html">Inicio</a>
-                <a href="/drinks.html">Bebidas</a>
-                <a href="/courses.html">Cursos</a>
-                <a href="/contact.html">Contacto</a>
-                <a href="/about.html">Nosotros</a>
-            </nav>            
-        </section>
+      <section class="container">
+        <div class="logo">
+          <a href="#">La Cockteleria</a>
+        </div>
+        <button class="menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+          </svg>
+          <svg
+            class="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"
+            />
+          </svg>
+        </button>
+        <nav class="menu">
+          <a href="/index.html">Inicio</a>
+          <a href="/drinks.html">Bebidas</a>
+          <a href="/courses.html">Cursos</a>
+          <a href="/contact.html">Contacto</a>
+          <a href="/about.html">Nosotros</a>
+        </nav>
+      </section>
     </header>
-    
-    <section id="drinks" class="container">
-        <h2 class="section-title">SOBRE NOSOTROS</h2>
+
+    <section id="drinks" class="seccion-principal">
+      <h2 class="section-title text-center">SOBRE NOSOTROS</h2>
+      <section class="quienessomos__grid" id="cardQuienesSomos">
+        <div class="persona">
+          <img
+            src="/assets/imgAbout/eduardo.png"
+            alt="imagen eduardo"
+            class="persona__imagen"
+          />
+          <div class="persona__contenido">
+            <h3 class="persona__nombre">EDUARDO SALINAS</h3>
+            <p class="persona__descripcion">
+              Me encanta la tecnología y los desafíos lógicos. Me gusta
+              mantenerme al día con las últimas tendencias en tecnología y
+              desarrollo de software. 🧠
+            </p>
+
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/salinas-eduardo/"
+              class="persona__enlace"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <!--FINpersona1-->
+        <div class="persona">
+          <img
+            src="/assets/imgAbout/cecilia.png"
+            alt="imagen cecilia"
+            class="persona__imagen"
+          />
+          <div class="persona__contenido">
+            <h3 class="persona__nombre">CECILIA DOMINGUEZ</h3>
+            <p class="persona__descripcion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              quidem sit ad voluptatum. Ipsum maxime libero amet, numquam
+              molestias reprehenderit est fugiat.
+            </p>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com"
+              class="persona__enlace"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+        <!--FINpersona2-->
+        <div class="persona">
+          <img
+            src="/assets/imgAbout/nicolas.png"
+            alt="imagen nicolas"
+            class="persona__imagen"
+          />
+          <div class="persona__contenido">
+            <h3 class="persona__nombre">NICOLAS FRATANTUENO</h3>
+            <p class="persona__descripcion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              quidem sit ad voluptatum. Ipsum maxime libero amet, numquam
+              molestias reprehenderit est fugiat, cum debitis cumque
+              exercitationem dicta recusandae sit nesciunt?
+            </p>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com"
+              class="persona__enlace"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+        <!--FINpersona3-->
+        <div class="persona">
+          <img
+            src="/assets/imgAbout/gerardo.png"
+            alt="imagen gerardo"
+            class="persona__imagen"
+          />
+          <div class="persona__contenido">
+            <h3 class="persona__nombre">JUAN GERARDO ROMERO URO</h3>
+            <p class="persona__descripcion">
+              Explorar el emocionante mundo de la tecnología, donde encuentro
+              constantemente desafíos inspiradores que me impulsan a buscar
+              soluciones.
+            </p>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/jgromerou/"
+              class="persona__enlace"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+        <!--FINpersona4-->
+      </section>
+    </section>
+
+    <section class="container_map">
+      <h2 class="section-title text-center">UBICACION</h2>
+      <div id="map"></div>
+      <script src="scriptMapAPI.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
     </section>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
