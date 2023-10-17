@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="./assets/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/courses.css">
 </head>
 <body>
     <header class="header">
@@ -32,7 +34,66 @@
     </header>
     
     <section id="courses" class="container">
-        <h2 class="section-title">PROXIMOS CURSOS</h2>
+    
+            <div class="course-section">
+    
+                    <div class="card" onclick="toggleCard(this)">
+                        <img src="./assets/tragos.jpg" alt="Curso de Bartender">
+                        <h3>Curso de Coctelería y Bartender</h3>
+                        <p class="card-description"> Descubre los fundamentos esenciales de la coctelería y aprende a mezclar bebidas con creatividad y habilidad técnica.</p>
+                        <div class="card-content">
+                            <ul >
+                                <li>Herramientas y técnicas esenciales.</li>
+                                <li>Decoración creativa y presentación.</li>
+                                <li>Exploración de licores y ingredientes frescos.</li>
+                                <li>Creación de cócteles clásicos y contemporáneos.</li>
+                                <li>Desarrollo del paladar y maridaje.</li>
+                                <li>Ética en el servicio y atención al cliente.</li>
+                                <li>Preparación para eventos y competiciones.</li>
+                                <li>Certificación y orientación profesional.</li>
+                            </ul>
+                            <p><em>Prepárate para destacar como bartender, sorprendiendo a tus clientes con experiencias de coctelería únicas. ¡Eleva tu arte a un nivel superior!</em></p>
+                        </div>
+                        <a class="read-more">Leer más</a>
+                    </div>  
+       
+                <div class="card" id="card-3" onclick="toggleCard(this)">
+                    <img src="./assets/vinos.jpg" alt="Cata de Vino">
+                    <h3>Cata de Vino</h3>
+                    <p class="card-description">Descubre el fascinante mundo del vino con nuestro curso de cata. Explora aromas, sabores y técnicas de degustación para convertirte en un conocedor de vinos.</p>
+                    <div class="card-content">
+                        <ul >
+                            <li>Introducción al Mundo del Vino.</li>
+                            <li>Técnicas de Cata.</li>
+                            <li>Variedades de Uva.</li>
+                            <li>Maridaje de Vinos.</li>
+                            <li>El Arte de Servir y Almacenar Vinos.</li>
+                            <li>Vinos del Mundo.</li>
+                            <li>Cata a Ciegas.</li>
+                        </ul>
+                        <p><em>Este curso te llevará a apreciar el vino de una manera completamente nueva. ¡Explora las variedades de vino y desarrolla tu paladar en una experiencia de cata única!</em></p>
+                    </div>
+                    <a class="read-more">Leer más</a>
+                </div>
+    
+                <div class="card" id="card-4" onclick="toggleCard(this)">
+                    <img src="./assets/whisky.jpg" alt="Cata de Whisky">
+                    <h3>Cata de Whisky</h3>
+                    <p class="card-description">Descubre el apasionante mundo de la cata de whiskys con nuestro curso especializado. Sumérgete en la rica historia y las complejidades aromáticas de esta icónica bebida espirituosa.</p>
+                    <div class="card-content">
+                        <ul >
+                            <li>Introducción al Mundo del Whisky.</li>
+                            <li>Proceso de Elaboración.</li>
+                            <li>Perfiles de Sabor.</li>
+                            <li>Técnicas de Cata.</li>
+                            <li>Exploración de Etiquetas y Marcas.</li>
+                            <li>Cata Práctica.</li>
+                            <li>Aspectos Éticos y Responsables.</li>
+                        </ul>
+                        <p><em>Este curso te proporcionará las habilidades y conocimientos esenciales para convertirte en un catador de whisky competente y apasionado. ¡Embárcate en este viaje sensorial y descubre la magia en cada gota de whisky!</em></p>
+                    </div>
+                    <a class="read-more">Leer más</a>
+                </div>
     </section>
     
     <script src="script.js"></script>

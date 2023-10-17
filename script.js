@@ -54,3 +54,16 @@
       });
   });
 })(document);
+
+function toggleCard(card) {
+  var content = card.querySelector('.card-content');
+  var readMoreLink = card.querySelector('.read-more');
+
+  if (content.style.display === 'none' || content.style.display === '') {
+      content.style.display = 'block';
+      readMoreLink.textContent = 'Leer menos';
+  } else {
+      content.style.display = 'none';
+      readMoreLink.textContent = 'Leer más';
+  }
+}
