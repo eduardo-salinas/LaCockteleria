@@ -26,7 +26,7 @@ function displayCocktail(cocktail) {
     cocktailList.appendChild(listItem); 
 }
 
-const cocktailIds = [13086, 13086, 13086, 13086, 13086, 13086, 13086, 13086, 13086, 13086, 13086, 13086];
+const cocktailIds = [14560, 15024, 17180, 14564, 178353, 17223, 14622, 11020, 11028, 11034, 11019, 17226];
 cocktailIds.forEach(cocktailId => {
     getCocktailDetails(cocktailId)
         .then(cocktail => {
