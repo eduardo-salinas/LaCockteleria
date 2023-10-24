@@ -23,6 +23,20 @@ li {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+li:hover{
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  text-decoration: none;
+}
+
 
 img {
     max-width: 100%;
