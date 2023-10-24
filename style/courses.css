@@ -1,4 +1,13 @@
 /* ********** Custom Card Styles ********** */
+.title {
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: var(--second-color);
+    color: var(--first-color);
+    text-align: center;
+    /* color: var(--title-color); */
+  }
 
 .course-section {
     display: flex;
@@ -24,7 +33,7 @@
 .card h3 {
     padding: 10px;
     background-color: var(--second-color);
-    color: white;
+    color: var(--first-color);
 }
 .card-description {
     font-weight: 600;
@@ -70,7 +79,7 @@
     text-align: center;
     padding: 10px;
     background-color: var(--second-color);
-    color: white;
+    color: var(--first-color);
     text-decoration: none;
     cursor: pointer;
     margin-top: auto; /* Alinear en el borde inferior */
