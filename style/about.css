@@ -23,11 +23,28 @@ img {
 }
 
 .persona {
+  border: 5px solid #A73121;
+  border-radius: 10px;
+  background-color: #f6efdb;
   max-width: 400px;
   row-gap: 1rem;
   text-align: center;
   align-items: center;
   margin: 1rem auto;
+}
+
+.persona:hover{
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  text-decoration: none;
 }
 
 .persona__imagen {

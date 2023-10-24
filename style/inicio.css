@@ -68,40 +68,43 @@ font-size: 15px;
 }
 }
 .contenedor{
+    width: auto;
+    height: auto;
     margin: 10px 10px 70px 10px;
     padding: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
-
 }
 .carta{
-    background-color: #ebbc91;
-    width: 330px;
-    /* height: 400px; */
-    margin: 30px 70px;
-    border-radius:15px 15px 0 0  ;
-    -webkit-border-radius:15px 15px 0 0  ;
-    -moz-border-radius:15px 15px 0 0  ;
-    -ms-border-radius:15px 15px 0 0  ;
-    -o-border-radius:15px 15px 0 0  ;
-    box-shadow: 10px 5px 5px rgb(163, 131, 94);
+    background-color: #f6efdb;
+    width: 390px;
+    border: 5px solid #A73121;
+    margin: 30px 30px;
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+    box-shadow: 5px 5px 5px rgb(163, 131, 94);
 }
 .card-img{
     background-color: rgb(173, 43, 10);
-    height: 150px;
+    height: 350px;
     margin-bottom: 15px;
     background-size: cover;
 }
 .car-1 {
-    background-image: url(foto1.PNG);
+    background-image: url(/assets/index/vodkacoc.jpg);
+    max-width: 100%;
 }
 .car-2 {
-    background-image: url(foto2.PNG);
+    background-image: url(/assets/index/alliescoc.jpg);
+    max-width: 100%;
 }
 .car-3 {
-    background-image: url(IMAGEN-kArE-U21627094969fhG-620x370@abc.jpg);
+    background-image: url(/assets/index/clovercoc.jpg);
+    max-width: 100%;
 }
 .carta h2{
  padding: 10px;
@@ -118,8 +121,6 @@ font-size: 15px;
     margin: 25px 50px;
 }
 .carta:hover{
-    color: rgb(237, 210, 173);
-    background-color: rgb(185, 58, 19);
     transform: scale(1.03);
     -webkit-transform: scale(1.03);
     -moz-transform: scale(1.03);
