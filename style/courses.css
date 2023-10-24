@@ -1,0 +1,92 @@
+/* ********** Custom Card Styles ********** */
+.title {
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: var(--second-color);
+    color: var(--first-color);
+    text-align: center;
+    /* color: var(--title-color); */
+  }
+
+.course-section {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    margin: 30px 0 30px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin: 50px;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: transparent;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 0.25rem 0.25rem 1rem rgba(82, 5, 5, 0.5);
+}
+.card h3 {
+    padding: 10px;
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
+.card-description {
+    font-weight: 600;
+    padding: 10px;
+}
+.card-content {
+    border-top: 5px solid var(--second-color);
+}
+.card-content  ul {
+    list-style: url("./assets/cop.png") square;
+} 
+
+.card-content li {
+    margin-bottom: 5px;
+    font-size: .9rem;
+    font-weight: 600;
+    position: relative;
+}
+.card:hover {
+    transform: scale(1.03);
+    /* transform: translateY(-15px); */
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    box-shadow: 0 12px 16px rgba(82, 5, 5, 0.8);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+    display: none;
+    flex-grow: 1; /* Permitir que el contenido ocupe todo el espacio disponible */
+}
+
+.card a.read-more {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--second-color);
+    color: var(--first-color);
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: auto; /* Alinear en el borde inferior */
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-basis: calc(100% - 40px);
+    }
+}

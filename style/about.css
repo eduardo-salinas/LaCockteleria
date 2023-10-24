@@ -1,0 +1,116 @@
+.seccion-principal {
+  flex-grow: 1;
+  margin-bottom: 50px;
+}
+
+[class*='__contenedor'] {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 95%;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.quienessomos__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.persona {
+  max-width: 400px;
+  row-gap: 1rem;
+  text-align: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+.persona__imagen {
+  border-radius: 50%; /* Hace que la imagen tenga bordes redondeados, creando un círculo */
+  max-width: 33%;
+  margin: .5rem auto;
+  padding-top: 1rem;
+}
+
+.persona__nombre {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.persona__descripcion {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+  margin: .5rem;
+}
+.persona__enlace {
+  max-width: 500px;
+  margin: 1rem 1rem 1rem 1rem;
+  display: block;
+  text-decoration: none;
+  color: var(--second-color);
+  padding: 1rem 5rem;
+  border: 2px solid var(--second-color);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+.persona__enlace:hover {
+  background-color: var(--second-color);
+  color: var(--white-color);
+}
+
+.container_map {
+  margin: 2rem 3rem 5rem 3rem;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+@media screen and (min-width: 279px) and (max-width: 767px) {
+  .quienessomos__grid {
+    gap: 3rem;
+    padding: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .persona {
+    grid-template-rows: 1fr 0.5fr;
+    row-gap: 1rem;
+  }
+  .persona__imagen {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .quienessomos__grid {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 1rem;
+  }
+  .persona {
+    grid-template-rows: 1fr 0.5fr;
+  }
+  .persona__imagen {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* .quienessomos__grid {
+    grid-template-columns: repeat(4, 1fr);
+  } */
+  .persona__imagen {
+    max-width: 50%;
+  }
+}
