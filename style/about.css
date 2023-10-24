@@ -37,6 +37,9 @@ img {
 
 .persona__imagen {
   border-radius: 50%; /* Hace que la imagen tenga bordes redondeados, creando un círculo */
+  max-width: 33%;
+  margin: 0 auto;
+  padding-top: 1rem;
 }
 
 .persona__nombre {
@@ -85,6 +88,9 @@ img {
     grid-template-rows: 1fr 0.5fr;
     row-gap: 1rem;
   }
+  .persona__imagen {
+    max-width: 80%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -95,10 +101,16 @@ img {
   .persona {
     grid-template-rows: 1fr 0.5fr;
   }
+  .persona__imagen {
+    max-width: 70%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   /* .quienessomos__grid {
     grid-template-columns: repeat(4, 1fr);
   } */
+  .persona__imagen {
+    max-width: 50%;
+  }
 }
