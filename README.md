@@ -7,7 +7,7 @@
 - Es un sitio web para informar sobre la preparación de tragos, bebidas y cócteles.
 
 ## Link ✅
-https://la-cockteleria-6f0br55n9-eduardo-salinas.vercel.app/index.html
+https://la-cockteleria.vercel.app/
 ## Recursos Externos 🌍
 - Uso de la API de Google Maps para mostrar la ubicación en la página de contacto.
 - Uso de la API de externa que provee información de bebidas y tragos (https://www.thecocktaildb.com/).
