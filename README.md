@@ -20,6 +20,13 @@ https://la-cockteleria.vercel.app/
 * __CSS__ 
 * __Bootstrap__
 
+## Integrantes 🧑‍💻👩‍💻👨‍💻👨‍💻
+* __Eduardo Salinas__
+* __Nicolás Fratantueno__
+* __Juan Gerardo Romero Uro__
+* __Cecilia Dominguez__
+
 ## Profesor y Comision 👨‍🏫 
 __Carlos Arroyo__
 __Comisión: 23518 - Grupo 18 - Año 2023 - 2do cuatrimestre__
+
